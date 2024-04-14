@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans',Geneva,Verdana, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #232f3e;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.content {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+.pagelist ul li a{
+    text-decoration: none;
+    color: #232f3e;
+    transition: 0.1s ease-out;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pagelist ul li a:hover{
+    color:#e68a33;
+}
+
+
+#homeContent{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#homeContent h2{
+    margin: 12px 0;
+    text-align: center;
+}
+
+#homeContent p:last-of-type{
+    font-weight: bold;
+}
+
+#saleBanner{
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #232f3e;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.pagelist {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.pagelist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagelist li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.product-table td img {
+    max-width: 100px;
+    border-radius: 8px;
+}
+
+.product-table td button {
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-table td button:hover {
+    background-color: #e68a00;
+}
+
+.product-table td:last-child {
+    text-align: center;
+}
+
+.product-table td:last-child button {
+    display: block;
+    margin: 0 auto;
+}
