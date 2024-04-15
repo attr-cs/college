@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans',Geneva,Verdana, sans-serif;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -26,15 +26,12 @@ body {
     height: 50px;
     margin-right: 10px;
 }
+
 .content {
     padding: 20px;
     background-color: #ffffff;
     margin: 20px;
     border-radius: 8px;
-}
-
-h2 {
-    color: #333333;
 }
 
 form {
@@ -50,6 +47,7 @@ input[type="text"],
 textarea {
     width: 100%;
     padding: 10px;
+    font-size: 1rem;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -58,6 +56,7 @@ textarea {
 input[type="submit"] {
     background-color: #ff9900;
     color: #ffffff;
+    font-size: 1rem;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -68,62 +67,35 @@ input[type="submit"]:hover {
     background-color: #e68a00;
 }
 
-.pagelist ul li a{
+#homeContent {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#homeContent h2 {
+    margin: 12px 0;
+    text-align: center;
+}
+
+#homeContent p:last-of-type {
+    font-weight: bold;
+}
+
+#saleBanner {
+    width: 100%;
+}
+
+.pagelist ul li a {
     text-decoration: none;
     color: #232f3e;
     transition: 0.1s ease-out;
     font-weight: 500;
     font-size: 1.2rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.pagelist ul li a:hover{
-    color:#e68a33;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-#homeContent{
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-}
-
-#homeContent h2{
-    margin: 12px 0;
-    text-align: center;
-}
-
-#homeContent p:last-of-type{
-    font-weight: bold;
-}
-
-#saleBanner{
-    width: 100%;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-}
-
-.header {
-    background-color: #232f3e;
-    color: #ffffff;
-    padding: 20px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.header img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+.pagelist ul li a:hover {
+    color: #e68a33;
 }
 
 .pagelist {
