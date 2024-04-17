@@ -1,21 +1,32 @@
-/* Global styles */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400; 
+    src: url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2') format('woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    width: 100vw;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
+
 
 .header {
     background-color: #232f3e;
     color: #ffffff;
-    padding: 1.25em; /* Converted padding to em */
+    padding: 1.25em; 
     display: flex;
     justify-content: left;
     align-items: center;
@@ -23,44 +34,44 @@ body {
 }
 
 .header img {
-    width: 3.125em; /* Converted width to em */
-    height: 3.125em; /* Converted height to em */
-    margin-right: 0.625em; /* Converted margin-right to em */
+    width: 3.125em; 
+    height: 3.125em; 
+    margin-right: 0.625em; 
 }
 
 .content {
-    padding: 1.25em; /* Converted padding to em */
+    padding: 1.25em; 
     background-color: #ffffff;
-    margin: 1.25em; /* Converted margin to em */
-    border-radius: 0.5em; /* Converted border-radius to em */
+    margin: 1.25em; 
+    border-radius: 0.5em; 
 }
 
 form {
-    margin-top: 1.25em; /* Converted margin-top to em */
+    margin-top: 1.25em; 
 }
 
 label {
     display: block;
-    margin-bottom: 0.3125em; /* Converted margin-bottom to em */
+    margin-bottom: 0.3125em; 
 }
 
 input[type="text"],
 textarea {
     width: 100%;
-    padding: 0.625em; /* Converted padding to em */
-    font-size: 1rem; /* Kept font-size in rem */
-    margin-bottom: 0.625em; /* Converted margin-bottom to em */
-    border: 0.0625em solid #ccc; /* Converted border to em */
-    border-radius: 0.25em; /* Converted border-radius to em */
+    padding: 0.625em; 
+    font-size: 1rem; 
+    margin-bottom: 0.625em; 
+    border: 0.0625em solid #ccc; 
+    border-radius: 0.25em; 
 }
 
 input[type="submit"] {
     background-color: #ff9900;
     color: #ffffff;
-    font-size: 1rem; /* Kept font-size in rem */
-    padding: 0.625em 1.25em; /* Converted padding to em */
+    font-size: 1rem; 
+    padding: 0.625em 1.25em; 
     border: none;
-    border-radius: 0.25em; /* Converted border-radius to em */
+    border-radius: 0.25em; 
     cursor: pointer;
 }
 
@@ -73,12 +84,13 @@ input[type="submit"]:hover {
 }
 
 #homeContent h2 {
-    margin: 0.75em 0; /* Converted margin to em */
+    margin: 0.75em 0; 
     text-align: center;
 }
 
 #homeContent p:last-of-type {
     font-weight: bold;
+    font-family: 'poppins';
 }
 
 #saleBanner {
@@ -90,7 +102,7 @@ input[type="submit"]:hover {
     color: #232f3e;
     transition: 0.1s ease-out;
     font-weight: 500;
-    font-size: 1.2rem; /* Kept font-size in rem */
+    font-size: 1.2rem; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -100,7 +112,7 @@ input[type="submit"]:hover {
 
 .pagelist {
     background-color: #ffffff;
-    padding: 0.625em; /* Converted padding to em */
+    padding: 0.625em; 
     text-align: center;
 }
 
@@ -112,19 +124,19 @@ input[type="submit"]:hover {
 
 .pagelist li {
     display: inline;
-    margin-right: 1.25em; /* Converted margin-right to em */
+    margin-right: 1.25em; 
 }
 
 .content {
-    padding: 1.25em; /* Converted padding to em */
+    padding: 1.25em; 
     background-color: #ffffff;
-    margin: 1.25em; /* Converted margin to em */
-    border-radius: 0.5em; /* Converted border-radius to em */
+    margin: 1.25em; 
+    border-radius: 0.5em; 
 }
 
 h2 {
     color: #333333;
-    margin-bottom: 1.25em; /* Converted margin-bottom to em */
+    margin-bottom: 1.25em; 
 }
 
 .product-table {
@@ -134,8 +146,8 @@ h2 {
 
 .product-table th,
 .product-table td {
-    padding: 0.9375em; /* Converted padding to em */
-    border-bottom: 0.0625em solid #ddd; /* Converted border to em */
+    padding: 0.9375em; 
+    border-bottom: 0.0625em solid #ddd; 
     text-align: left;
 }
 
@@ -144,16 +156,16 @@ h2 {
 }
 
 .product-table td img {
-    max-width: 6.25em; /* Converted max-width to em */
-    border-radius: 0.5em; /* Converted border-radius to em */
+    max-width: 6.25em; 
+    border-radius: 0.5em; 
 }
 
 .product-table td button {
     background-color: #ff9900;
     color: #ffffff;
-    padding: 0.5em 0.9375em; /* Converted padding to em */
+    padding: 0.5em 0.9375em; 
     border: none;
-    border-radius: 0.25em; /* Converted border-radius to em */
+    border-radius: 0.25em; 
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -180,18 +192,22 @@ h2 {
     width: 96%;
 }
 
-html {
-    width: 100vw;
-}
-
 table {
     width: 100%;
+}
+
+#homeContent p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header,
 .pagelist,
 body {
     width: 100%;
+}
+
+button{
+    font-family: 'Poppins';
 }
 
 @media screen and (max-width: 758px) {
@@ -205,11 +221,11 @@ body {
 
     }
     .pagelist ul li {
-        margin-right: 0.4375em; /* Converted margin-right to em */
+        margin-right: 0.4375em; 
     }
 
     .pagelist ul li a {
-        font-size: 0.9375rem; /* Converted font-size to rem */
+        font-size: 0.9375rem; 
     }
     .content h2{
         font-size: 18px;
