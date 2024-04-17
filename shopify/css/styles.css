@@ -1,3 +1,4 @@
+/* Global styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@ body {
 .header {
     background-color: #232f3e;
     color: #ffffff;
-    padding: 20px;
+    padding: 1.25em; /* Converted padding to em */
     display: flex;
     justify-content: left;
     align-items: center;
@@ -22,44 +23,44 @@ body {
 }
 
 .header img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+    width: 3.125em; /* Converted width to em */
+    height: 3.125em; /* Converted height to em */
+    margin-right: 0.625em; /* Converted margin-right to em */
 }
 
 .content {
-    padding: 20px;
+    padding: 1.25em; /* Converted padding to em */
     background-color: #ffffff;
-    margin: 20px;
-    border-radius: 8px;
+    margin: 1.25em; /* Converted margin to em */
+    border-radius: 0.5em; /* Converted border-radius to em */
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 1.25em; /* Converted margin-top to em */
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em; /* Converted margin-bottom to em */
 }
 
 input[type="text"],
 textarea {
     width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0.625em; /* Converted padding to em */
+    font-size: 1rem; /* Kept font-size in rem */
+    margin-bottom: 0.625em; /* Converted margin-bottom to em */
+    border: 0.0625em solid #ccc; /* Converted border to em */
+    border-radius: 0.25em; /* Converted border-radius to em */
 }
 
 input[type="submit"] {
     background-color: #ff9900;
     color: #ffffff;
-    font-size: 1rem;
-    padding: 10px 20px;
+    font-size: 1rem; /* Kept font-size in rem */
+    padding: 0.625em 1.25em; /* Converted padding to em */
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25em; /* Converted border-radius to em */
     cursor: pointer;
 }
 
@@ -72,7 +73,7 @@ input[type="submit"]:hover {
 }
 
 #homeContent h2 {
-    margin: 12px 0;
+    margin: 0.75em 0; /* Converted margin to em */
     text-align: center;
 }
 
@@ -89,7 +90,7 @@ input[type="submit"]:hover {
     color: #232f3e;
     transition: 0.1s ease-out;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Kept font-size in rem */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -99,7 +100,7 @@ input[type="submit"]:hover {
 
 .pagelist {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 0.625em; /* Converted padding to em */
     text-align: center;
 }
 
@@ -111,19 +112,19 @@ input[type="submit"]:hover {
 
 .pagelist li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 1.25em; /* Converted margin-right to em */
 }
 
 .content {
-    padding: 20px;
+    padding: 1.25em; /* Converted padding to em */
     background-color: #ffffff;
-    margin: 20px;
-    border-radius: 8px;
+    margin: 1.25em; /* Converted margin to em */
+    border-radius: 0.5em; /* Converted border-radius to em */
 }
 
 h2 {
     color: #333333;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em; /* Converted margin-bottom to em */
 }
 
 .product-table {
@@ -133,8 +134,8 @@ h2 {
 
 .product-table th,
 .product-table td {
-    padding: 15px;
-    border-bottom: 1px solid #ddd;
+    padding: 0.9375em; /* Converted padding to em */
+    border-bottom: 0.0625em solid #ddd; /* Converted border to em */
     text-align: left;
 }
 
@@ -143,16 +144,16 @@ h2 {
 }
 
 .product-table td img {
-    max-width: 100px;
-    border-radius: 8px;
+    max-width: 6.25em; /* Converted max-width to em */
+    border-radius: 0.5em; /* Converted border-radius to em */
 }
 
 .product-table td button {
     background-color: #ff9900;
     color: #ffffff;
-    padding: 8px 15px;
+    padding: 0.5em 0.9375em; /* Converted padding to em */
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25em; /* Converted border-radius to em */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -168,4 +169,78 @@ h2 {
 .product-table td:last-child button {
     display: block;
     margin: 0 auto;
+}
+
+/* not necessary to write in assignment */
+#homeContent img {
+    width: 100%;
+}
+
+.content {
+    width: 96%;
+}
+
+html {
+    width: 100vw;
+}
+
+table {
+    width: 100%;
+}
+
+.header,
+.pagelist,
+body {
+    width: 100%;
+}
+
+@media screen and (max-width: 758px) {
+    .header img {
+        width: 2.5em;
+        height: 2.5em; 
+        margin-right: 0.625em; 
+    }
+    .header h1{
+        font-size: 25px;
+
+    }
+    .pagelist ul li {
+        margin-right: 0.4375em; /* Converted margin-right to em */
+    }
+
+    .pagelist ul li a {
+        font-size: 0.9375rem; /* Converted font-size to rem */
+    }
+    .content h2{
+        font-size: 18px;
+    }
+    .content{
+        width: 95%;
+    }
+    table{
+        font-size: 8px;
+    }
+    button{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 663px) {
+    button{font-size: 5px;}
+}
+
+
+@media screen and (max-width: 471px) {
+    table{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 339px) {
+    .pagelist ul li a{
+        font-size: 0.8rem;
+    }
+    table{
+        font-size: 6px;
+    }
 }
